@@ -2,15 +2,12 @@
 Basit bir HTTP Web Sunucusu ve istemcisi. Bu proje, istemciden gelen HTTP isteklerini birer birer işleyerek temel düzeyde web sunucusu mantığını göstermektedir.
 
 ## 📦 Proje Özeti
-
 Bu web sunucusu aşağıdaki işlemleri gerçekleştirir:
 
 - İstemciden gelen HTTP isteğini kabul eder ve ayrıştırır.
 - Sunucunun dosya sisteminde istenen dosyayı arar.
 - İstenen dosyayı HTTP başlıkları ile birlikte istemciye gönderir.
 - Eğer dosya mevcut değilse, istemciye `"404 Not Found"` mesajı gönderir.
-
----
 
 ## 🔧 Sunucu Özellikleri
 
@@ -26,12 +23,10 @@ Bu web sunucusu aşağıdaki işlemleri gerçekleştirir:
 - Temel HTTP protokol bilgisi
 - TCP/IP bağlantısı
   
----
 
 📌 Not
 Bu proje eğitim amaçlı geliştirilmiştir ve sadece basit HTTP GET isteklerini işler. Tarayıcı desteği olmadan doğrudan komut satırından test edilmelidir.
 
----
 ## 🧪 HTTP İstemcisi (Client)
 
 Tarayıcı yerine kendi geliştirilmiş bir HTTP istemcisi kullanılır. Bu istemci:
@@ -40,14 +35,12 @@ Tarayıcı yerine kendi geliştirilmiş bir HTTP istemcisi kullanılır. Bu iste
 - `GET` metodu ile HTTP isteği gönderir.
 - Gelen yanıtı terminal/komut satırında gösterir.
 
----
-
 ### 🔢 Komut Satırı Kullanımı (Client)
 
 ```bash
 python client.py <server_ip> <port> <file_path>
 ```
-
+---
 # Web_Server
 A web server that handles one HTTP request at a time. It accept and parse the HTTP request, get the requested file from the server’s file system, create an HTTP response message consisting of the requested file preceded by header lines, and then send the response directly to the client. If the requested file is not present in the server, the server send an HTTP “404 Not Found” message back to the client.
 
