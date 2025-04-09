@@ -24,6 +24,17 @@ Bu web sunucusu aşağıdaki işlemleri gerçekleştirir:
 
 ---
 
+🛠️ Kullanılan Teknolojiler
+- Python (Socket programlama)
+- Temel HTTP protokol bilgisi
+- TCP/IP bağlantısı
+  
+---
+
+📌 Not
+Bu proje eğitim amaçlı geliştirilmiştir ve sadece basit HTTP GET isteklerini işler. Tarayıcı desteği olmadan doğrudan komut satırından test edilmelidir.
+
+---
 ## 🧪 HTTP İstemcisi (Client)
 
 Tarayıcı yerine kendi geliştirilmiş bir HTTP istemcisi kullanılır. Bu istemci:
