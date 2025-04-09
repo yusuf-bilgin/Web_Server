@@ -1,8 +1,5 @@
 # 🌐 Web_Server
-
 Basit bir HTTP Web Sunucusu ve istemcisi. Bu proje, istemciden gelen HTTP isteklerini birer birer işleyerek temel düzeyde web sunucusu mantığını göstermektedir.
-
----
 
 ## 📦 Proje Özeti
 
